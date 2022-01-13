@@ -14,7 +14,7 @@ public class CarObject {
     car2.racing();
     car2.breaksDown();
 
-    Tesla car3 = new Tesla("X3", 2021, 56000, "Navy Blue", 15000);
+    Tesla car3 = new Tesla("Model S", 2021, 56000, "Navy Blue", 15000);
     car3.start();
     car3.drive();
     car3.autoPilot();

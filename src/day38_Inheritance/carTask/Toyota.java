@@ -10,7 +10,10 @@ public class Toyota extends Car {
         System.out.println(brand+" "+model+" "+" has reliable");
     }
 
-
+    @Override
+    public void start() {
+        System.out.println("Twist the key to ignition to start "+brand+" "+model);
+    }
 
 
 }
