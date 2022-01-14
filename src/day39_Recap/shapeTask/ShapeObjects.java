@@ -40,7 +40,7 @@ public class ShapeObjects {
         System.out.println(circle);
 
         System.out.println(circle.getName());
-        
+
 
     }
 }
