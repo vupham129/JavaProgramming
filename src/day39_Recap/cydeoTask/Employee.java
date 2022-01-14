@@ -41,7 +41,7 @@ public class Employee extends Person {
         System.out.println(getName()+" is working");
     }
 
-   
+
     public String toString() {
         return "Employee{" +
                 "name='" + getName() + '\'' +
@@ -53,3 +53,17 @@ public class Employee extends Person {
                 '}';
     }
 }
+/*
+ 2. Create a sub class of Person named Employee:
+            Extra variables:
+                employeeId, jobTitle, salary
+
+            Encapsulate all the fields
+
+            Add a constructor to set all the fields
+
+            Methods:
+                work()
+                toString()
+
+ */
