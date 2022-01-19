@@ -1,4 +1,4 @@
-package day26_CustomMethods_Practice;
+package day29_ArrayList.day26_CustomMethods_Practice;
 
 public class FrequencyOfElements {
     public static void main(String[] args) {
