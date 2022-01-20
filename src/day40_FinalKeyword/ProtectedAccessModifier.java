@@ -6,6 +6,12 @@ public class ProtectedAccessModifier {
 
     protected static String name2 = "WoodenSpoon"; // protected
 
+    static void method1(){
 
+    }
+
+    protected static void method2(){
+
+    }
 
 }
