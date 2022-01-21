@@ -1,4 +1,4 @@
-package day34_GarbageCollection_AccessModifier;
+package day26_CustomMethods_Practice.day34_GarbageCollection_AccessModifier;
 
 public class StaticMembers { // outer class
 

@@ -1,16 +1,15 @@
-package day34_GarbageCollection_AccessModifier;
+package day26_CustomMethods_Practice.day34_GarbageCollection_AccessModifier;
 
 
-import static day34_GarbageCollection_AccessModifier.Circle.*;
 import static utilities.MathUtility.*;
 
 
 public class Test {
     public static void main(String[] args) {
 
-        System.out.println(pi);
-        System.out.println(name);
-        System.out.println(numbers);
+        System.out.println(Circle.pi);
+        System.out.println(Circle.name);
+        System.out.println(Circle.numbers);
 
         System.out.println("=====================");
 

@@ -1,4 +1,4 @@
-package day34_GarbageCollection_AccessModifier;
+package day26_CustomMethods_Practice.day34_GarbageCollection_AccessModifier;
 
 import day30_CustomClass.Dog;
 import day31_Constructor.Student;

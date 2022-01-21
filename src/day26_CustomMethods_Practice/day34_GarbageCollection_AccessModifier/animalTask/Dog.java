@@ -1,4 +1,4 @@
-package day34_GarbageCollection_AccessModifier.animalTask;
+package day26_CustomMethods_Practice.day34_GarbageCollection_AccessModifier.animalTask;
 
 public class Dog extends Animal {
 
