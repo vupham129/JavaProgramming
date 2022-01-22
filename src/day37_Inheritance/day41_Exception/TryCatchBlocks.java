@@ -1,4 +1,4 @@
-package day41_Exception;
+package day37_Inheritance.day41_Exception;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
