@@ -3,8 +3,8 @@ package day43_Abstraction.employeeTask;
 public final class Tester extends Employee {
 
 
-    public Tester(String name, int age, char gender, int id, double salary) {
-        super(name, age, gender, id, "Tester", salary);
+    public Tester(String name, int age, char gender, int id, String jobTitle, double salary) {
+        super(name, age, gender, id, jobTitle, salary);
     }
 
     @Override
