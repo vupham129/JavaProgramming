@@ -1,4 +1,4 @@
-package day42_ExceptionsContinue;
+package day32_Constructors.day42_ExceptionsContinue;
 
 public class ThrowsKeyword {
     public static void main(String[] args) throws InterruptedException {

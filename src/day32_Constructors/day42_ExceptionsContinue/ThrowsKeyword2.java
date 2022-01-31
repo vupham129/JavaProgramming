@@ -1,4 +1,4 @@
-package day42_ExceptionsContinue;
+package day32_Constructors.day42_ExceptionsContinue;
 
 public class ThrowsKeyword2 {
     public static void main(String[] args) throws ArithmeticException {

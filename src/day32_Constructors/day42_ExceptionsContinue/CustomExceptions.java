@@ -1,4 +1,4 @@
-package day42_ExceptionsContinue;
+package day32_Constructors.day42_ExceptionsContinue;
 
 class FadyException extends RuntimeException{
 
