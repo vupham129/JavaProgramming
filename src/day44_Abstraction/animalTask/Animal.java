@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public class Animal {
+public abstract class Animal {
 
     private String name;
     private final String breed;
@@ -51,6 +51,9 @@ public class Animal {
     }
 
     public void setAge(int age) {
+        if(age< 0|| age>20){
+            throw new RuntimeException("Invalid age: "+age);
+        }
         this.age = age;
     }
 
@@ -59,6 +62,9 @@ public class Animal {
     }
 
     public void setSize(String size) {
+        if(!(size.equalsIgnoreCase("small")||size.equalsIgnoreCase("medium") || size.equalsIgnoreCase("large"))){
+            throw new RuntimeException("Invalid size: "+size);
+        }
         this.size = size;
     }
 
@@ -67,6 +73,21 @@ public class Animal {
     }
 
 
+    public abstract void eat();
 
+    public final void drink(){
+        System.out.println(getName()+" drinks water");
+    }
 
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
