@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>day44_Abstraction.animalTask</OriginalElement>
+  <nodes>
+    <node x="241.125" y="476.0">day44_Abstraction.animalTask.Horse</node>
+    <node x="722.4780701754386" y="78.5">day44_Abstraction.animalTask.Flyable</node>
+    <node x="1134.125" y="476.0">day44_Abstraction.animalTask.Duck</node>
+    <node x="435.6030701754386" y="78.5">day44_Abstraction.animalTask.Swimable</node>
+    <node x="1583.890350877193" y="78.5">day44_Abstraction.animalTask.Wild</node>
+    <node x="1476.6030701754385" y="476.0">day44_Abstraction.animalTask.Eagle</node>
+    <node x="450.125" y="476.0">day44_Abstraction.animalTask.CydeoCar</node>
+    <node x="1024.125" y="476.0">day44_Abstraction.animalTask.Parrot</node>
+    <node x="350.125" y="476.0">day44_Abstraction.animalTask.Cow</node>
+    <node x="1222.6030701754385" y="0.0">day44_Abstraction.animalTask.Animal</node>
+    <node x="1360.7280701754385" y="476.0">day44_Abstraction.animalTask.Shark</node>
+    <node x="1582.6030701754385" y="476.0">day44_Abstraction.animalTask.Falcon</node>
+    <node x="776.125" y="476.0">day44_Abstraction.animalTask.Dolphin</node>
+    <node x="585.125" y="476.0">day44_Abstraction.animalTask.Cat</node>
+    <node x="310.6030701754386" y="78.5">day44_Abstraction.animalTask.Playable</node>
+    <node x="0.0" y="476.0">day44_Abstraction.animalTask.Person</node>
+    <node x="1238.125" y="476.0">day44_Abstraction.animalTask.Java</node>
+    <node x="1695.6030701754385" y="476.0">day44_Abstraction.animalTask.Tiger</node>
+    <node x="677.125" y="476.0">day44_Abstraction.animalTask.Dog</node>
+    <node x="1799.6030701754385" y="476.0">day44_Abstraction.animalTask.Lion</node>
+    <node x="121.75" y="476.0">day44_Abstraction.animalTask.Boat</node>
+    <node x="899.125" y="476.0">day44_Abstraction.animalTask.Airplane</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="day44_Abstraction.animalTask.Parrot" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="22.5" y="-14.5" />
+      <point x="1091.625" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Cat" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="-18.0" y="-14.5" />
+      <point x="603.125" y="446.0" />
+      <point x="363.1030701754386" y="446.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Falcon" target="day44_Abstraction.animalTask.Wild" relationship="REALIZATION">
+      <point x="-23.25" y="-14.5" />
+      <point x="1605.8530701754385" y="456.0" />
+      <point x="1623.890350877193" y="456.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Java" target="day44_Abstraction.animalTask.Swimable" relationship="REALIZATION">
+      <point x="-19.5" y="-14.5" />
+      <point x="1257.625" y="386.0" />
+      <point x="614.75" y="386.0" />
+      <point x="614.75" y="246.0" />
+      <point x="492.6030701754386" y="246.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Tiger" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="-21.0" y="-14.5" />
+      <point x="1716.6030701754385" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Duck" target="day44_Abstraction.animalTask.Flyable" relationship="REALIZATION">
+      <point x="-21.0" y="-14.5" />
+      <point x="1155.125" y="396.0" />
+      <point x="580.890350877193" y="396.0" />
+      <point x="580.890350877193" y="316.0" />
+      <point x="770.9780701754386" y="316.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Horse" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="22.25" y="-14.5" />
+      <point x="307.875" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Duck" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="21.0" y="-14.5" />
+      <point x="1197.125" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Dog" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="19.75" y="-14.5" />
+      <point x="736.375" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Duck" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="-21.0" y="-14.5" />
+      <point x="1155.125" y="396.0" />
+      <point x="580.890350877193" y="396.0" />
+      <point x="580.890350877193" y="286.0" />
+      <point x="363.1030701754386" y="286.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.CydeoCar" target="day44_Abstraction.animalTask.Flyable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="507.625" y="436.0" />
+      <point x="604.75" y="436.0" />
+      <point x="604.75" y="326.0" />
+      <point x="770.9780701754386" y="326.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Lion" target="day44_Abstraction.animalTask.Wild" relationship="REALIZATION">
+      <point x="19.5" y="-14.5" />
+      <point x="1858.1030701754385" y="206.0" />
+      <point x="1623.890350877193" y="206.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Dog" target="day44_Abstraction.animalTask.Swimable" relationship="REALIZATION">
+      <point x="-19.75" y="-14.5" />
+      <point x="696.875" y="426.0" />
+      <point x="403.99342105263156" y="426.0" />
+      <point x="403.99342105263156" y="356.0" />
+      <point x="492.6030701754386" y="356.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Person" target="day44_Abstraction.animalTask.Swimable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="48.0" y="456.0" />
+      <point x="357.11842105263156" y="456.0" />
+      <point x="357.11842105263156" y="346.0" />
+      <point x="492.6030701754386" y="346.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Java" target="day44_Abstraction.animalTask.Wild" relationship="REALIZATION">
+      <point x="-19.5" y="-14.5" />
+      <point x="1257.625" y="386.0" />
+      <point x="614.75" y="386.0" />
+      <point x="614.75" y="346.0" />
+      <point x="1623.890350877193" y="346.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Dolphin" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="25.75" y="-14.5" />
+      <point x="853.375" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Eagle" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="21.5" y="-14.5" />
+      <point x="1541.1030701754385" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Dolphin" target="day44_Abstraction.animalTask.Swimable" relationship="REALIZATION">
+      <point x="-25.75" y="-14.5" />
+      <point x="801.875" y="416.0" />
+      <point x="465.3530701754386" y="416.0" />
+      <point x="465.3530701754386" y="366.0" />
+      <point x="492.6030701754386" y="366.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Eagle" target="day44_Abstraction.animalTask.Wild" relationship="REALIZATION">
+      <point x="-21.5" y="-14.5" />
+      <point x="1498.1030701754385" y="456.0" />
+      <point x="1514.6030701754385" y="456.0" />
+      <point x="1514.6030701754385" y="366.0" />
+      <point x="1623.890350877193" y="366.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Eagle" target="day44_Abstraction.animalTask.Flyable" relationship="REALIZATION">
+      <point x="-21.5" y="-14.5" />
+      <point x="1498.1030701754385" y="456.0" />
+      <point x="1514.6030701754385" y="456.0" />
+      <point x="1514.6030701754385" y="226.0" />
+      <point x="770.9780701754386" y="226.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Shark" target="day44_Abstraction.animalTask.Wild" relationship="REALIZATION">
+      <point x="-21.75" y="-14.5" />
+      <point x="1382.4780701754385" y="456.0" />
+      <point x="1399.2280701754385" y="456.0" />
+      <point x="1399.2280701754385" y="356.0" />
+      <point x="1623.890350877193" y="356.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Dolphin" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="-25.75" y="-14.5" />
+      <point x="801.875" y="416.0" />
+      <point x="465.3530701754386" y="416.0" />
+      <point x="465.3530701754386" y="306.0" />
+      <point x="363.1030701754386" y="306.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Duck" target="day44_Abstraction.animalTask.Swimable" relationship="REALIZATION">
+      <point x="-21.0" y="-14.5" />
+      <point x="1155.125" y="396.0" />
+      <point x="580.890350877193" y="396.0" />
+      <point x="580.890350877193" y="276.0" />
+      <point x="492.6030701754386" y="276.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Java" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="19.5" y="-14.5" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Lion" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="-19.5" y="-14.5" />
+      <point x="1819.1030701754385" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Cow" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="20.0" y="-14.5" />
+      <point x="410.125" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Boat" target="day44_Abstraction.animalTask.Swimable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="161.75" y="336.0" />
+      <point x="492.6030701754386" y="336.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Cat" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="18.0" y="-14.5" />
+      <point x="639.125" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Tiger" target="day44_Abstraction.animalTask.Wild" relationship="REALIZATION">
+      <point x="21.0" y="-14.5" />
+      <point x="1758.6030701754385" y="206.0" />
+      <point x="1623.890350877193" y="206.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Falcon" target="day44_Abstraction.animalTask.Flyable" relationship="REALIZATION">
+      <point x="-23.25" y="-14.5" />
+      <point x="1605.8530701754385" y="456.0" />
+      <point x="1624.1030701754385" y="456.0" />
+      <point x="1624.1030701754385" y="216.0" />
+      <point x="770.9780701754386" y="216.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Horse" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="-22.25" y="-14.5" />
+      <point x="263.375" y="446.0" />
+      <point x="363.1030701754386" y="446.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Airplane" target="day44_Abstraction.animalTask.Flyable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="951.625" y="296.0" />
+      <point x="770.9780701754386" y="296.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Falcon" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="23.25" y="-14.5" />
+      <point x="1652.3530701754385" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Shark" target="day44_Abstraction.animalTask.Animal" relationship="GENERALIZATION">
+      <point x="21.75" y="-14.5" />
+      <point x="1425.9780701754385" y="376.0" />
+      <point x="1297.1030701754385" y="376.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Cow" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="-20.0" y="-14.5" />
+      <point x="370.125" y="446.0" />
+      <point x="363.1030701754386" y="446.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.CydeoCar" target="day44_Abstraction.animalTask.Swimable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="507.625" y="436.0" />
+      <point x="604.75" y="436.0" />
+      <point x="604.75" y="266.0" />
+      <point x="492.6030701754386" y="266.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Shark" target="day44_Abstraction.animalTask.Swimable" relationship="REALIZATION">
+      <point x="-21.75" y="-14.5" />
+      <point x="1382.4780701754385" y="456.0" />
+      <point x="1399.2280701754385" y="456.0" />
+      <point x="1399.2280701754385" y="236.0" />
+      <point x="492.6030701754386" y="236.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Parrot" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="-22.5" y="-14.5" />
+      <point x="1046.625" y="406.0" />
+      <point x="570.890350877193" y="406.0" />
+      <point x="570.890350877193" y="296.0" />
+      <point x="363.1030701754386" y="296.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Parrot" target="day44_Abstraction.animalTask.Flyable" relationship="REALIZATION">
+      <point x="-22.5" y="-14.5" />
+      <point x="1046.625" y="406.0" />
+      <point x="570.890350877193" y="406.0" />
+      <point x="570.890350877193" y="306.0" />
+      <point x="770.9780701754386" y="306.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Java" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="-19.5" y="-14.5" />
+      <point x="1257.625" y="386.0" />
+      <point x="614.75" y="386.0" />
+      <point x="614.75" y="256.0" />
+      <point x="363.1030701754386" y="256.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Dog" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="-19.75" y="-14.5" />
+      <point x="696.875" y="426.0" />
+      <point x="403.99342105263156" y="426.0" />
+      <point x="403.99342105263156" y="316.0" />
+      <point x="363.1030701754386" y="316.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Person" target="day44_Abstraction.animalTask.Playable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="48.0" y="456.0" />
+      <point x="357.11842105263156" y="456.0" />
+      <point x="357.11842105263156" y="326.0" />
+      <point x="363.1030701754386" y="326.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="day44_Abstraction.animalTask.Java" target="day44_Abstraction.animalTask.Flyable" relationship="REALIZATION">
+      <point x="-19.5" y="-14.5" />
+      <point x="1257.625" y="386.0" />
+      <point x="614.75" y="386.0" />
+      <point x="614.75" y="336.0" />
+      <point x="770.9780701754386" y="336.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="939.0" y="252.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
