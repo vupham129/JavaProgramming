@@ -1,6 +1,4 @@
-package day32_Constructors;
-
-import day30_CustomClass.Car;
+package day39_Recap.day32_Constructors;
 
 public class CarpetObjects {
     public static void main(String[] args) {

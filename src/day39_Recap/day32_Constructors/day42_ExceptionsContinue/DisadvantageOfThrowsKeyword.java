@@ -1,4 +1,4 @@
-package day32_Constructors.day42_ExceptionsContinue;
+package day39_Recap.day32_Constructors.day42_ExceptionsContinue;
 
 public class DisadvantageOfThrowsKeyword {
 

@@ -2,7 +2,7 @@ package day26_CustomMethods_Practice.day34_GarbageCollection_AccessModifier;
 
 import day30_CustomClass.Dog;
 import day31_Constructor.Student;
-import day32_Constructors.Car;
+import day39_Recap.day32_Constructors.Car;
 
 import java.util.ArrayList;
 import java.util.Arrays;

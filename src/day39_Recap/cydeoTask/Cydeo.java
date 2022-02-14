@@ -1,7 +1,5 @@
 package day39_Recap.cydeoTask;
 
-import day32_Constructors.Test;
-
 public class Cydeo {
     public static void main(String[] args) {
 
