@@ -22,7 +22,7 @@ public class MapClasses {
         hashmap.put(null, "Hulya"); // this one will be taken
         System.out.println("hashmap = " + hashmap); //{null=Hulya, 3=Jack, 20=George, 5=Ahmet, 6=null, 7=null, 40=Emma, 10=Arthur}
 
-
+        System.out.println("hashmap.get(10) = " + hashmap.get(10));// Arthur
 
 
         Map<Integer, String> linkedHashMap = new LinkedHashMap<>();
@@ -40,7 +40,7 @@ public class MapClasses {
         linkedHashMap.put(null, "Hulya"); // this one will be taken
 
         System.out.println("linkedHashMap = " + linkedHashMap);//{10=Arthur, 20=George, 3=Jack, 40=Emma, 5=Ahmet, 6=null, 7=null, null=Hulya}
-        // maintains insertion order, accept one null value as a key, multiple value as a value
+        // maintains insertion order, accept one null value as a key, multiple value as a value and duplicated
         
         Map<Integer, String> treeMap = new TreeMap<>();
         treeMap.put(10, "Arthur");
@@ -57,7 +57,7 @@ public class MapClasses {
        // treeMap.put(null, "Hulya"); 
 
         System.out.println("treeMap = " + treeMap);//{3=Jack, 5=Ahmet, 6=null, 7=null, 10=Arthur, 20=George, 40=Emma}
-        // sorted insertion ascending order, do NOT accept null value as a key, but accept multiple null values as a value
+        // sorted insertion ascending order, do NOT accept null value as a key, but accept multiple null values as a value and duplicated
         
         Map<Integer, String> hashtable = new Hashtable<>();
         hashtable.put(10, "Arthur");
