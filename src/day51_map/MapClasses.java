@@ -75,7 +75,7 @@ public class MapClasses {
 
         System.out.println("hashtable = " + hashtable);//{10=Arthur, 20=George, 40=Emma, 5=Ahmet, 3=Jack}
 
-        // maintains random order, doNOT accept null value as a key and null values as a value
+        // maintains random order, doNOT accept null value as a key and null values as a value, and is synchronized
 
 
 
