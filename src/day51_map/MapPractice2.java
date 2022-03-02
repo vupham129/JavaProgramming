@@ -64,16 +64,19 @@ public class MapPractice2 {
         System.out.println();
 
 
-     //1.5 increase the salary of each employee by 10K
+     //1.5 increase the salary of each employee by 10K  if the current salary of employee is less than 120K
         // before increasing 10k
         System.out.println("map = " + map);
         //map = {John=123000, Antony=100000, Jimmy=115000, James=110000, Conor=85000, Josh=117000, Cory=118000, Anderson=125000, Steven=135000}
         for (Map.Entry<String, Integer> pair : map.entrySet()) {
-            pair.setValue(pair.getValue() + 10000);
+            if(pair.getValue() < 120000){
+                pair.setValue(pair.getValue() + 10000);
+            }
+
         }
         // after increasing 10k
         System.out.println("map = " + map);
-        // map = {John=133000, Antony=110000, Jimmy=125000, James=120000, Conor=95000, Josh=127000, Cory=128000, Anderson=135000, Steven=145000}
+        //map = {John=123000, Antony=110000, Jimmy=125000, James=120000, Conor=95000, Josh=127000, Cory=128000, Anderson=125000, Steven=135000}
 
     }
 }
