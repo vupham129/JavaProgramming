@@ -57,8 +57,8 @@ public class ListOfMapPractice1 {
         System.out.println("--------------------------------------------");
         // print the names of all employees:
         for (Map<String, String> scrumTeam : scrumTeams) {
-            for (String eachTeam : scrumTeam.keySet()) {
-                System.out.println("Names of employees = " + eachTeam);
+            for (Map.Entry<String, String> pair : scrumTeam.entrySet()) {
+                System.out.println(pair.getKey()+" : "+pair.getValue());
             }
         }
 
