@@ -1,5 +1,6 @@
 package day53_FunctionalInterface;
 
+@FunctionalInterface
 public interface MyThirdFunctionalInterface<T> {
     void apply(T data);
 }
